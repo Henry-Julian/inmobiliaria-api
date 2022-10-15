@@ -26,6 +26,7 @@ export class PropietarioController {
     public propietarioRepository : PropietarioRepository,
   ) {}
 
+  //router.post('/propietarios')
   @post('/propietarios')
   @response(200, {
     description: 'Propietario model instance',
